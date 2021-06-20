@@ -24,30 +24,6 @@
                 <button role="button" class="px-4 py-2 mx-auto text-base font-medium text-blue-600 transition duration-500 ease-in-out transform bg-blue-100 rounded-lg hover:bg-blue-300 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Buy Now </button>
               </td>
             </tr>
-            <tr>
-              <td class="px-4 py-2 border-t-2 border-blueGray-200 ">Row</td>
-              <td class="px-4 py-2 border-t-2 border-blueGray-200">00 Mb/s</td>
-              <td class="px-4 py-2 border-t-2 border-blueGray-200">00 GB</td>
-              <td class="px-4 py-2 text-lg text-blueGray-900 border-t-2 border-blueGray-200">
-                <button role="button" class="px-4 py-2 mx-auto text-base font-medium text-blue-600 transition duration-500 ease-in-out transform bg-blue-100 rounded-lg hover:bg-blue-300 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Buy Now </button>
-              </td>
-            </tr>
-            <tr>
-              <td class="px-4 py-2 text-black border-t-2 border-blueGray-200 bg-blueGray-50">Row</td>
-              <td class="px-4 py-2 text-black border-t-2 border-blueGray-200">00 Mb/s</td>
-              <td class="px-4 py-2 text-black border-t-2 border-blueGray-200 bg-blueGray-50">00 GB</td>
-              <td class="px-4 py-2 text-lg border-t-2 border-blueGray-200 bg-blueGray-50">
-                <button role="button" class="px-4 py-2 mx-auto text-base font-medium text-blue-600 transition duration-500 ease-in-out transform bg-blue-100 rounded-lg hover:bg-blue-300 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Buy Now </button>
-              </td>
-            </tr>
-            <tr>
-              <td class="px-4 py-2 border-t-2 border-b-2 border-blueGray-200">Row</td>
-              <td class="px-4 py-2 border-t-2 border-b-2 border-blueGray-200">48 Mb/s</td>
-              <td class="px-4 py-2 border-t-2 border-b-2 border-blueGray-200">120 GB</td>
-              <td class="px-4 py-2 text-lg text-blueGray-900 border-t-2 border-b-2 border-blueGray-200">
-                <button role="button" class="px-4 py-2 mx-auto text-base font-medium text-white transition duration-500 ease-in-out transform bg-blue-600 border-blue-600 rounded-md items-centerw-full focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2 hover:bg-blue-700">Buy Now </button>
-              </td>
-            </tr>
           </tbody>
         </table>
       </div>
