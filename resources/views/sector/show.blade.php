@@ -16,14 +16,16 @@
             </tr>
           </thead>
           <tbody>
+            @foreach ($sectors as $sector)
             <tr class="items-center">
-              <td class="px-4 py-2 text-black bg-blueGray-50">Row</td>
+              <td class="px-4 py-2 text-black bg-blueGray-50">{{$sector->pci}}</td>
               <td class="px-4 py-2 text-black bg-blueGray-50">00 Mb/s</td>
               <td class="px-4 py-2 text-black bg-blueGray-50">00 GB</td>
               <td class="px-4 py-2 text-lg bg-blueGray-50">
                 <button role="button" class="px-4 py-2 mx-auto text-base font-medium text-blue-600 transition duration-500 ease-in-out transform bg-blue-100 rounded-lg hover:bg-blue-300 focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">Buy Now </button>
               </td>
             </tr>
+            @endforeach
           </tbody>
         </table>
       </div>
