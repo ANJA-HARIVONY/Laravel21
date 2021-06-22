@@ -6,6 +6,7 @@
 <section class="text-blueGray-600 ">
     <div class="container px-5 py-24 mx-auto">
         <div class="w-full mx-auto overflow-auto lg:w-2/3">
+            <a href="{{ route('sector.showadd')}}">Ajouter</a>
             <table class="w-full text-left whitespace-no-wrap table-auto">
                 <thead>
                     <tr>

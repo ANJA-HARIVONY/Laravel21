@@ -21,4 +21,5 @@ Route::get('/home',[HomeController::class, 'acceuil'])->name('acceuil');
 Route::get('/home/acceuil',[HomeController::class, 'acceuil'])->name('acceuil');
 
 Route::get('/sector/show',[SectorController::class, 'show'])->name('sector.show');
+Route::get('/sector/showadd',[SectorController::class, 'showadd'])->name('sector.showadd');
 

@@ -11,7 +11,10 @@ class SectorController extends Controller
     public function show(){
 
         $sectors = Sector::all();
-        //dd($sectors);
         return view('sector.show',compact('sectors'));
+    }
+
+    public function showadd(){
+        return view('sector.showadd');
     }
 }
