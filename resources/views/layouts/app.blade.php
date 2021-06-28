@@ -11,10 +11,9 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href=" {{ asset('css/app.css')}}">
-
     </head>
     <body>
-        <div class="container">
+        < class="container">
           <div class="container items-center ">
             <div class="text-blueGray-700 rounded-lg">
               <div class="flex flex-col flex-wrap p-5 mx-auto md:items-center md:flex-row">
@@ -40,6 +39,17 @@
             </div>
           </div>
             @yield('contenu')
+
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-link">Link</button>
+
         </div>
         <script src=" {{asset('js/app.js')}} "></script>
     </body>
